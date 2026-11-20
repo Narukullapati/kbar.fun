@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "node server/index.js",
     "build": "ng build",
+    "deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy-package.ps1",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve": "ng serve"
